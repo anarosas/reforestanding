@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'sinatra/activerecord'
 require 'sinatra/base'
-require 'activerecord'
+require 'active_record'
 require 'haml'
 
 
