@@ -1,6 +1,9 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    activerecord (2.3.11)
+      activesupport (= 2.3.11)
+    activesupport (2.3.11)
     builder (3.0.0)
     capybara (0.4.1.2)
       celerity (>= 0.7.9)
@@ -74,6 +77,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord
   capybara
   cucumber
   cucumber-sinatra
