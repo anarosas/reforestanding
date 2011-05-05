@@ -1,0 +1,20 @@
+!!!
+%html{:lang => "en", "xml:lang" => "en", :xmlns => "http://www.w3.org/1999/xhtml"}
+	%head
+		%meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}/
+		%title Reforestanding
+		%link{:href => "css/blueprint/screen.css", :media => "screen, projection", :rel => "stylesheet", :type => "text/css"}
+		%link{:href => "css/blueprint/print.css", :media => "print", :rel => "stylesheet", :type => "text/css"}
+		%link{:href => "css/style.css", :media => "screen", :rel => "stylesheet", :type => "text/css"} 
+
+		%link{:href => "http://fonts.googleapis.com/css?family=Arvo:regular,bold", :rel => "stylesheet", :type => "text/css"}
+		%link{:href => "http://fonts.googleapis.com/css?family=Anton", :rel => "stylesheet", :type => "text/css"}
+		%link{:href => "http://fonts.googleapis.com/css?family=Bevan", :rel => "stylesheet", :type => "text/css"}
+	%body
+		.container
+			.logo
+				%img{:alt => "logo", :height => "72", :src => "images/logo.png", :width => "193"}
+			%span.reforestanding
+				%img{:alt => "logo", :height => "61", :src => "images/reforestanding.png", :width => "681"}
+			= yield
+		.footer
