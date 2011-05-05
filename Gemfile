@@ -6,6 +6,6 @@ gem 'cucumber-sinatra'
 gem 'capybara'
 gem 'rspec'
 gem 'haml'
-gem 'activerecord'
-#gem 'sqlite3-ruby'
+gem 'activerecord', "<= 2.3.11"
+gem 'sqlite3-ruby'
 gem 'sinatra-activerecord'
