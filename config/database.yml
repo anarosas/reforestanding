@@ -3,7 +3,7 @@ development:
   encoding: utf8
   database: reforestanding_dev.db
 
-development:
+production:
   adapter: sqlite
   encoding: utf8
   database: reforestanding_prod.db
