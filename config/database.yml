@@ -3,10 +3,3 @@ development:
   encoding: utf8
   database: reforestanding_dev.db
 
-production:
-  adapter: postgresql
-  encoding: utf8
-  database postgres.path[1..-1]
-  username: postgres.user
-  password: postgres.password
-  host: postgres.host
