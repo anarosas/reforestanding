@@ -4,7 +4,6 @@ development:
   database: db/reforestanding_dev.db
 
 production:
-  adapter: postgresql
-  encoding: unicode
-  database: db/reforestanding_prod.db
-  pool: 5
+  <<: *general
+  database: reforestanding_prod.db
+
