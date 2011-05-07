@@ -3,14 +3,12 @@ development:
   encoding: utf8
   database: reforestanding_dev.db
 
-postgres = URI.parse(ENV['DATABASE_URL'] || '')
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: postgres.path[1..-1]
+  username: postgres.user
+  password: postgres.password
+  host: postgres.host
 
-ActiveRecord::Base.configurations[:production] = {
-  :adapter  => 'postgresql',
-  :encoding => 'utf8',
-  :database => postgres.path[1..-1], 
-  :username => postgres.user,
-  :password => postgres.password,
-  :host     => postgres.host
-}
 
