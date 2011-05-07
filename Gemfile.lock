@@ -38,6 +38,7 @@ GEM
     json_pure (1.5.1)
     mime-types (1.16)
     nokogiri (1.4.4)
+    pg (0.11.0)
     rack (1.2.2)
     rack-test (0.6.0)
       rack (>= 1.0)
@@ -82,6 +83,7 @@ DEPENDENCIES
   cucumber
   cucumber-sinatra
   haml
+  pg
   rspec
   sinatra
   sinatra-activerecord
