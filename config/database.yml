@@ -1,5 +1,10 @@
 development:
   adapter: sqlite
   encoding: utf8
-  database: reforestanding_dev.db
+  database: db/reforestanding_dev.db
 
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: db/reforestanding_prod.db
+  pool: 5
