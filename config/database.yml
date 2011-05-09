@@ -1,7 +1,7 @@
 development:
   adapter: sqlite
   encoding: utf8
-  database: db/reforestanding_dev.db
+  database: reforestanding_dev.db
 
 production:
   <<: *general

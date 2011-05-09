@@ -4,8 +4,6 @@ require 'sinatra/base'
 require 'active_record'
 require 'haml'
 
-dbconfig = YAML.load(File.read('config/database.yml'))
-ActiveRecord::Base.establish_connection dbconfig['production']
 
 class Contact < ActiveRecord::Base
 	validates_presence_of :name, :email
