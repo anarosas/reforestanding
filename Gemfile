@@ -11,5 +11,5 @@ gem 'sqlite3-ruby'
 gem 'sinatra-activerecord'
 
 group :production do
- gem 'pg'
+ gem 'ruby-pg'
 end

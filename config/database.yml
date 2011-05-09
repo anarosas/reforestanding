@@ -4,6 +4,6 @@ development:
   database: reforestanding_dev.db
 
 production:
-  <<: *general
+  adapter: postgresql
   database: reforestanding_prod.db
 
