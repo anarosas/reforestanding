@@ -4,10 +4,15 @@ require 'sinatra/base'
 require 'active_record'
 require 'haml'
 
-ActiveRecord::Base.establish_connection(
-   :adapter => 'sqlite3',
-   :database =>  'db/reforestanding-dev.db'
-)
+
+
+#ActiveRecord::Base.establish_connection(
+ #  :adapter => 'sqlite3',
+ # :database =>  'db/reforestanding-dev.db'
+#)
+
+dbconfig = YAML.load(File.read('config/database.yml'))
+ActiveRecord::Base.establish_connection dbconfig['development']
 
 
 class Contact < ActiveRecord::Base

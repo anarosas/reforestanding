@@ -1,4 +1,13 @@
 development:
-  adapter: sqlite
+  adapter: sqlite3
   encoding: utf8
-  database: reforestanding-dev
+  database: reforestanding-dev.db
+
+production: 
+  encoding: unicode
+  adapter: postgresql
+  username: zxgjmdwwqm
+  port: 5432
+  host: ec2-204-236-238-83.compute-1.amazonaws.com
+  database: zxgjmdwwqm
+  password: 5C4vZGxqCzNyh2NzIXut
