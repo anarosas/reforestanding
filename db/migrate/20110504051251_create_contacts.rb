@@ -1,7 +1,7 @@
 class CreateContacts < ActiveRecord::Migration
   def self.up
 		create_table :contacts do |t|
-      t.string :name
+      t.string :nombre
       t.string :email
       t.string :twitter
     end

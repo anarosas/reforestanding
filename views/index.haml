@@ -1,12 +1,14 @@
 - if @errors
-	%p Tu correo/twitter no es valido o ya ha sido registrado
+	%p
+		- @info.errors.full_messages.each do |message|
+			%br= message
 
 .span-15.formulario
 	%form{:action => "contact", :id => "", :method => "post"}
 		%fieldset
 			%ul
 				%li
-					%label{:for => "name"} Nombre*
+					%label{:for => "nombre"} Nombre*
 					%input#cname.required{:minlength => "2", :name => "name", :size => "25"}/
 				%li
 					%label{:for => "email"} Email*
