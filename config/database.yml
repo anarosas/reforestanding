@@ -1,5 +1,5 @@
 development:
   adapter: sqlite
   encoding: utf8
-  database: reforestanding_dev.db
+  database: reforestanding-dev
 
