@@ -25,6 +25,7 @@ end
 		if @info.save
 				haml :thank_you
 			else
+				@errors = true
 				haml :index
 		end
 	end

@@ -2,4 +2,3 @@ development:
   adapter: sqlite
   encoding: utf8
   database: reforestanding-dev
-
