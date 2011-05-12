@@ -6,13 +6,9 @@ require 'haml'
 
 
 
-#ActiveRecord::Base.establish_connection(
- #  :adapter => 'sqlite3',
- # :database =>  'db/reforestanding-dev.db'
-#)
 
 dbconfig = YAML.load(File.read('config/database.yml'))
-ActiveRecord::Base.establish_connection dbconfig['development']
+ActiveRecord::Base.establish_connection dbconfig['production']
 
 
 class Contact < ActiveRecord::Base
