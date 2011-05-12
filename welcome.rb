@@ -5,8 +5,7 @@ require 'active_record'
 require 'haml'
 
 ActiveRecord::Base.establish_connection(
-   :adapter => 'sqlite3',
-   :database =>  'db/reforestanding-dev.db'
+   :adapter => 'postgresql'
 )
 
 
