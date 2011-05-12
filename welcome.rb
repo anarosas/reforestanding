@@ -5,9 +5,10 @@ require 'active_record'
 require 'haml'
 
 ActiveRecord::Base.establish_connection(
-   :adapter => 'postgresql',
-   :database =>  'zxgjmdwwqm'
+   :adapter => 'sqlite3',
+   :database =>  'db/reforestanding-dev.db'
 )
+
 
 class Contact < ActiveRecord::Base
 	validates_presence_of :name, :email
