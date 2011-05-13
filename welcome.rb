@@ -20,9 +20,13 @@ end
 		haml :index
 	end
 
+	get '/contact' do
+		haml :index
+	end
+
 	post '/contact' do
-		@info = Contact.new(:nombre => params[:nombre], :email => params[:email], :twitter => params[:twitter]) 
-		if @info.save
+		@info = Contact.create(:nombre => params[:nombre], :email => params[:email], :twitter => params[:twitter]) 
+		if @info.valid?
 				haml :thank_you
 			else
 				@errors = true
