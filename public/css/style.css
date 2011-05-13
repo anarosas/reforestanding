@@ -11,32 +11,49 @@ body{
 	background:none;
 }
 
-
-
 .logo img{
-	margin:50px 0 0 370px;
+	margin:10px 0 0 370px;
 }
 
 .reforestanding img{
-	margin:50px 0 0 154px;
+	margin:20px 0 0 154px;
 }
 
+.gracias{
+	margin:100px 0 0 350px;
+}
+
+.errors{
+	margin:10px 180px;
+	text-align:left;
+}
+
+.errors br{
+	margin:10px 180px;
+	text-align:left;
+}
+
+.intro{
+	margin:10px 180px;
+	text-align:left;
+}
 .formulario{
-	margin:58px 0 0 199px;
+	margin:28px 0 10px 199px;
 }
 
 .formulario input{
 	width:332px;
-	height:38px;
+	height:30px;
 	border:1px solid #abd279;
 	float:left;
+	font-size:15px;
 	margin-left:15px;
 	margin-bottom:8px;
 }
 
 .formulario label{
 	font-family: 'Anton', arial, sans-serif;
-	font-size:30px;
+	font-size:25px;
 	color:#666666;
 	width:150px;
 	float:left;
@@ -46,7 +63,7 @@ body{
 .formulario ul li{
 	clear:both;
 	float:left;
-	margin-bottom:15px;
+	margin-bottom:10px;
 }
 
 .formulario input.sendButton{
@@ -55,6 +72,7 @@ body{
 	height:58px;
 	background:#a5dd4d;
 	margin-left:299px;
+	margin-bottom:20px;
 	color:#fff;
 	font-size:42px;
 	border:2px solid #83c51a;
@@ -66,7 +84,7 @@ body{
 }
 
 .footer{
-	background:url('../images/loma.png') no-repeat bottom center;
+	background:url('../images/loma.jpg') no-repeat bottom center;
 	height:540px;
 	width:100%;
 	position:absolute;
