@@ -26,7 +26,8 @@ body{
 .errors{
 	margin:40px 0 0 180px;
 	text-align:left;
-	color:#8e8e8e;
+	color:#FF6600;
+	font-size:13px;	
 	font-family: 'Anton', arial, sans-serif;
 }
 
