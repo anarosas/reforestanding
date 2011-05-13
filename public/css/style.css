@@ -24,17 +24,18 @@ body{
 }
 
 .errors{
-	margin:10px 180px;
+	margin:40px 0 0 180px;
 	text-align:left;
+	color:#8e8e8e;
 	font-family: 'Anton', arial, sans-serif;
 }
 
 .intro{
-	margin:10px 180px;
+	margin:8px 190px;
 	text-align:left;
 }
 .formulario{
-	margin:8px 0 10px 199px;
+	margin:8px 0 10px 159px;
 }
 
 .formulario input{
