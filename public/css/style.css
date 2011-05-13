@@ -26,11 +26,7 @@ body{
 .errors{
 	margin:10px 180px;
 	text-align:left;
-}
-
-.errors br{
-	margin:10px 180px;
-	text-align:left;
+	font-family: 'Anton', arial, sans-serif;
 }
 
 .intro{
@@ -38,7 +34,7 @@ body{
 	text-align:left;
 }
 .formulario{
-	margin:28px 0 10px 199px;
+	margin:8px 0 10px 199px;
 }
 
 .formulario input{

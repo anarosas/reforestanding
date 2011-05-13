@@ -1,12 +1,14 @@
 %span.reforestanding
 	%img{:alt => "logo", :height => "61", :src => "images/reforestanding.png", :width => "681"}
-.intro
-	Preocupados por nuestro medio ambiente decidimos hacer nuestra aportación con la sociedad colimense,es por eso que en conjunto con el Ayuntamiento de Colima, Crowd Interactive estará organizando brigadas de reforestación, registra tus datos para recibir información sobre éstas.
 
-.errors
-	- if @errors
+- if @errors
+	.errors
 		- @info.errors.full_messages.each do |message|
-			%b= message
+			= message
+- else
+	.intro
+		Preocupados por nuestro medio ambiente decidimos hacer nuestra aportación con la sociedad colimense,es por eso que en conjunto con el Ayuntamiento de Colima, Crowd Interactive estará organizando brigadas de reforestación, registra tus datos para recibir información sobre éstas.
+
 
 .span-15.formulario
 	%form{:action => "contact", :id => "", :method => "post"}
