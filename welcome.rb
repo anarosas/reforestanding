@@ -25,6 +25,7 @@ end
   end
 
   post '/contact' do
+    mail_body = File.read("views/mail.html")  
     @info = Contact.create(:nombre => params[:nombre], :email => params[:email], :twitter => params[:twitter]) 
     if @info.valid?
       Pony.mail(
@@ -39,8 +40,9 @@ end
           :authentication => :plain,
           :domain => "crowdint.com"
         },
-        :subject => 'Hi testing',
-        :body => 'Hello there.')
+        :subject => "Reforestanding Colima!!  Welcome #{@info.nombre}",
+        :html_body => mail_body,
+        :body => "Gracias por registrarte. Pronto te informaremos sobre los eventos. Saludos.")
       haml :thank_you
     else
       @errors = true
