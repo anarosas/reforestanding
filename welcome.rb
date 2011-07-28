@@ -13,7 +13,7 @@ ActiveRecord::Base.establish_connection dbconfig[RACK_ENV]
 
 class Contact < ActiveRecord::Base
   validates_presence_of :nombre, :email, :message => "no puede estar vacio/ "
-  validates_uniqueness_of :email, :twitter, :message => "ya registrado/ "
+  #validates_uniqueness_of :email, :twitter, :message => "ya registrado/ "
   validates_format_of :email, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/ , :message => "no valido/ "
 end
   get '/' do   
@@ -35,8 +35,8 @@ end
           :address => 'smtp.gmail.com',
           :port => '587',
           :enable_starttls_auto => true,
-          :user_name => 'socialmedia@crowdint.com',
-          :password => '',
+          :user_name => 'social@crowdint.com',
+          :password => 's0c14lm3d14',
           :authentication => :plain,
           :domain => "crowdint.com"
         },
