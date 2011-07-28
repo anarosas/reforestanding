@@ -3,6 +3,7 @@ require 'sinatra/activerecord'
 require 'sinatra/base'
 require 'active_record'
 require 'haml'
+require 'pony'
 
 dbconfig = YAML.load(File.read('config/database.yml'))
 
@@ -26,9 +27,23 @@ end
   post '/contact' do
     @info = Contact.create(:nombre => params[:nombre], :email => params[:email], :twitter => params[:twitter]) 
     if @info.valid?
-        haml :thank_you
-      else
-        @errors = true
-        haml :index
+      Pony.mail(
+        :to => 'ignacio.galindo@crowdint.com',
+        :via => :smtp,
+        :via_options => {
+          :address => 'smtp.gmail.com',
+          :port => '587',
+          :enable_starttls_auto => true,
+          :user_name => 'joigama@gmail.com',
+          :password => '',
+          :authentication => :plain,
+          :domain => "HELO"
+        },
+        :subject => 'Hi',
+        :body => 'Hello there.')
+      haml :thank_you
+    else
+      @errors = true
+      haml :index
     end
   end

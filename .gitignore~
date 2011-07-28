@@ -1,0 +1,35 @@
+.bundle
+.rvmrc
+config/database.yml
+db/*.sql
+db/*.db
+*.db
+
+
+[H[2J[0m[1;26r[H[2J[7m    I    reforestanding-dev.db                                                                                       Row 4    Col 1   11:52  Ctrl-K H for help
+
+
+
+[0m[4mE@W[0m;#chalochal1ssasso@example.comchalo1assss*   [4mE@W[0m9!chalochal1ssaso@example.comchalo1asss([4mHE@W[0m7[4m_[0mchalochal1saso@example.comchalo1ass&[4mGE@W[0m5[4m][0mchalochal1sao@examp[H
+SQLite format 3[4m@D@AA@[0m@  [4m@@@X@@@E@@@@@@@@@@@C@@@A@@@@@@@@@@@A@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@X@[0m-[7mb[0m[4m\M@@@DBC@C[7mM[0m[4mCCB[0mU[4mBC@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@AC[0m[7mm[0m[4m@C[0m[7mm[0m[4m@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+B[0m[7m`[0m[4mB[0m[7m4[0m[4mB[7mF[0m[4mB[0mV[4mB[0m$[4mA[0m[7mp[0m[4mA[0m[7mP[0m[4mA[0m[7m.[0m[4mA[7mJ[0m[4mA[0md[4mA[0m<[4m@[0m[7m}[0m[4m@[0m[7mL[0m[4m@[7mZ[0m[4m@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@[0m0[4mUE@[0m!;!voluntariovoluntari[22B[7m** Joe's Own Editor v3.7 ** (utf-8) ** Copyright © 2008 **[5d[1;32H(Modified)[80C5[5B[0m[4mE@W[0m;#chalochal1ssasso@example.comchalo1assss*   [4mE@W[0m9!chalochal1ssaso@example.comchalo1asss([4mHE@W[0m7[4m_[0mchalochal1saso@example.comchalo1ass&[4mGE@W[0m5[4m][0mchalochal1sao@examp[20B[K[5d[K
+[1;122H[7m6[6B[0m[4mE@W[0m;#chalochal1ssasso@example.comchalo1assss*   [4mE@W[0m9!chalochal1ssaso@example.comchalo1asss([4mHE@W[0m7[4m_[0mchalochal1saso@example.comchalo1ass&[4mGE@W[0m5[4m][0mchalochal1sao@examp[A[K
+[1;122H[7m7[7B[0m[4mE@W[0m;#chalochal1ssasso@example.comchalo1assss*   [4mE@W[0m9!chalochal1ssaso@example.comchalo1asss([4mHE@W[0m7[4m_[0mchalochal1saso@example.comchalo1ass&[4mGE@W[0m5[4m][0mchalochal1sao@examp[A[K
+[18BLose changes to this file (y,n,^C)? [K[8d[1;122H[7m8[8B[0m[4mE@W[0m;#chalochal1ssasso@example.comchalo1assss*   [4mE@W[0m9!chalochal1ssaso@example.comchalo1asss([4mHE@W[0m7[4m_[0mchalochal1saso@example.comchalo1ass&[4mGE@W[0m5[4m][0mchalochal1sao@examp[A[K
+[1;122H[7m9[9B[0m[4mE@W[0m;#chalochal1ssasso@example.comchalo1assss*   [4mE@W[0m9!chalochal1ssaso@example.comchalo1asss([4mHE@W[0m7[4m_[0mchalochal1saso@example.comchalo1ass&[4mGE@W[0m5[4m][0mchalochal1sao@examp[A[K
+[1;122H[7m10[10B[0m[4mE@W[0m;#chalochal1ssasso@example.comchalo1assss*   [4mE@W[0m9!chalochal1ssaso@example.comchalo1asss([4mHE@W[0m7[4m_[0mchalochal1saso@example.comchalo1ass&[4mGE@W[0m5[4m][0mchalochal1sao@examp[A[K
+[1;123H[7m1[11B[0m[4mE@W[0m;#chalochal1ssasso@example.comchalo1assss*   [4mE@W[0m9!chalochal1ssaso@example.comchalo1asss([4mHE@W[0m7[4m_[0mchalochal1saso@example.comchalo1ass&[4mGE@W[0m5[4m][0mchalochal1sao@examp[A[K
+[1;123H[7m2[12B[0m[4mE@W[0m;#chalochal1ssasso@example.comchalo1assss*   [4mE@W[0m9!chalochal1ssaso@example.comchalo1asss([4mHE@W[0m7[4m_[0mchalochal1saso@example.comchalo1ass&[4mGE@W[0m5[4m][0mchalochal1sao@examp[A[K
+[1;123H[7m3[13B[0m[4mE@W[0m;#chalochal1ssasso@example.comchalo1assss*   [4mE@W[0m9!chalochal1ssaso@example.comchalo1asss([4mHE@W[0m7[4m_[0mchalochal1saso@example.comchalo1ass&[4mGE@W[0m5[4m][0mchalochal1sao@examp[A[K
+[1;123H[7m4[14B[0m[4mE@W[0m;#chalochal1ssasso@example.comchalo1assss*   [4mE@W[0m9!chalochal1ssaso@example.comchalo1asss([4mHE@W[0m7[4m_[0mchalochal1saso@example.comchalo1ass&[4mGE@W[0m5[4m][0mchalochal1sao@examp[A[K
+[1;123H[7m5[15B[0m[4mE@W[0m;#chalochal1ssasso@example.comchalo1assss*   [4mE@W[0m9!chalochal1ssaso@example.comchalo1asss([4mHE@W[0m7[4m_[0mchalochal1saso@example.comchalo1ass&[4mGE@W[0m5[4m][0mchalochal1sao@examp[A[K
+[1;123H[7m6[16B[0m[4mE@W[0m;#chalochal1ssasso@example.comchalo1assss*   [4mE@W[0m9!chalochal1ssaso@example.comchalo1asss([4mHE@W[0m7[4m_[0mchalochal1saso@example.comchalo1ass&[4mGE@W[0m5[4m][0mchalochal1sao@examp[A[K
+[1;123H[7m7[17B[0m[4mE@W[0m;#chalochal1ssasso@example.comchalo1assss*   [4mE@W[0m9!chalochal1ssaso@example.comchalo1asss([4mHE@W[0m7[4m_[0mchalochal1saso@example.comchalo1ass&[4mGE@W[0m5[4m][0mchalochal1sao@examp[A[K
+[1;122H[7m3 [7C610
+
+
+[0ma.rosas10@gmail.comsss2[4mME@W[0mA)chalochal1ssssassso@example.comchalo1asssssss0[4mLE@W[0m?'chalochal1ssssasso@example.comchalo1assssss.[4mKE@W[0m=%chalochal1sssasso@example.c[14B[4m@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@[H
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@[11C@@@@@[11C@@@@[0mP[4mDFW[0m++[4mA[0mYtablesqlite_sequencesqlite_sequence[4mE[0mCREATE TABLE sqlite_sequence(name,seq)[7m[4mA[0m+[4mCGW]]A[7mB[0m)tab
+[3C[4m@@@@@@
+[148C[0mo

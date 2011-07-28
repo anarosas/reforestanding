@@ -3,5 +3,4 @@
 config/database.yml
 db/*.sql
 db/*.db
-
-
+*.db
