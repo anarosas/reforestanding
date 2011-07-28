@@ -35,7 +35,7 @@ end
           :address => 'smtp.gmail.com',
           :port => '587',
           :enable_starttls_auto => true,
-          :user_name => 'carlos.muniz@crowdint.com',
+          :user_name => 'socialmedia@crowdint.com',
           :password => '',
           :authentication => :plain,
           :domain => "crowdint.com"
