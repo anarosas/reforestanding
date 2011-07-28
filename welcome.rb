@@ -28,18 +28,18 @@ end
     @info = Contact.create(:nombre => params[:nombre], :email => params[:email], :twitter => params[:twitter]) 
     if @info.valid?
       Pony.mail(
-        :to => 'ignacio.galindo@crowdint.com',
+        :to => @info.email,
         :via => :smtp,
         :via_options => {
           :address => 'smtp.gmail.com',
           :port => '587',
           :enable_starttls_auto => true,
-          :user_name => 'joigama@gmail.com',
+          :user_name => 'carlos.muniz@crowdint.com',
           :password => '',
           :authentication => :plain,
-          :domain => "HELO"
+          :domain => "crowdint.com"
         },
-        :subject => 'Hi',
+        :subject => 'Hi testing',
         :body => 'Hello there.')
       haml :thank_you
     else
