@@ -6,8 +6,8 @@ require 'haml'
 require 'pony'
 
 dbconfig = YAML.load(File.read('config/database.yml'))
-
-ActiveRecord::Base.establish_connection dbconfig['production']
+ENV['RACK_ENV'] ||= 'development'
+ActiveRecord::Base.establish_connection dbconfig[ENV['RACK_ENV']]
 
 class Contact < ActiveRecord::Base
   validates_presence_of :nombre, :email, :message => "no puede estar vacio/ "
@@ -38,8 +38,8 @@ end
           :address => 'smtp.gmail.com',
           :port => '587',
           :enable_starttls_auto => true,
-          :user_name => 'social@crowdint.com',
-          :password => 's0c14lm3d14',
+          :user_name => ENV['MAIL_USER'],
+          :password => ENV['MAIL_PASSWORD'],
           :authentication => :plain,
           :domain => "crowdint.com"
         },
