@@ -35,6 +35,7 @@ body{
 #message{
 	background:#FF6600;
 	color:#FFF;
+	margin-right: 10px;
 }
 .formulario{
 	margin:8px 0 10px 159px;
