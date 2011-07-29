@@ -36,6 +36,9 @@ body{
 	background:#FF6600;
 	color:#FFF;
 	margin-right: 10px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 3px 3px 9px black;
 }
 .formulario{
 	margin:8px 0 10px 159px;
@@ -81,6 +84,8 @@ body{
 	-webkit-box-shadow: 0px 1px 2px #595959;
 	-moz-box-shadow: 0px 1px 2px #595959;
 	box-shadow: 0px 1px 2px #595959;
+	line-height: 5px;
+	box-shadow: 3px 3px 9px black;
 }
 
 .footer{
